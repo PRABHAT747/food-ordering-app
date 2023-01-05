@@ -1,0 +1,189 @@
+
+body
+{
+    
+    margin: 0px;
+   
+}
+#container{
+    
+    display: block ;
+    font-family:'Smythe',cursive;
+    max-width: 500px;
+    margin:0 auto;
+    padding: 0;
+   
+}
+h1{
+    font-family: 'Smythe' ,cursive;
+    margin:0;
+}
+.top{
+   
+    
+    margin:0px; 
+    padding: 0px;
+    color: white;
+    height: 150px;
+    background-image: url("images/top.png");
+    border: 1px solid black;
+    
+}
+#price{
+    font-weight: bold;
+    font-size:1.4em;
+}
+#name{
+    font-weight: bold;
+    font-size:3em;
+}
+#emoji{
+    width: 90px;
+    font-size: 4em;
+}
+p{
+    margin: 0;
+}
+#box{
+    
+    background-color: white;
+    border-bottom:1px solid gray;
+    display: flex;
+    gap:1%;
+}
+#choice{
+    display: flex;
+    gap: 10%;  
+}
+button{
+        margin:27px 0;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        
+}
+#es1{
+    width: 300px;
+    max-width: 300px;
+}
+#topp{
+    margin: 30px; 
+    text-align: start;
+    
+    border: none;
+}
+#remove{
+   font-weight: 400;
+    margin:0; 
+    padding:0;
+    background: none;
+    border: none;
+}
+
+#on{
+    font-size: 2em;
+    font-weight: 800;
+}
+.rem{
+    font-size: 0.5em;
+    color: red;
+   
+}
+.ototal{
+    margin-top: 1.8%;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 7%;
+}
+.olist{
+
+    display: flex;
+    justify-content:space-between;
+
+}
+.upperbo{
+    font-weight: bold;
+    font-size: 1.6em;
+    border-top:3px solid black  ;
+}
+.rem:hover{
+    cursor: pointer;
+}
+#selectprice{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.complete{
+    font-size: 2em;
+    background-color: #16DB99;
+    padding: 10px 10px;
+    color: white;
+    margin-top:9%;
+    text-align: center;
+
+}
+.complete:hover{
+    cursor: pointer;
+}
+#pop{
+    
+    border: 2px solid grey ;
+    padding: 20px;
+    max-width: 400px;
+    max-height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    box-shadow: 0px 0px 20px 1px #666;
+    border-radius: 5px;
+}
+.payb{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    background-color:#16DB99;
+    padding: 8px;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 40px;
+    width: 100%;
+    font-size: .6em;
+    padding: 5px;
+
+}
+#paytop{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#paypop{
+    padding: 10px;
+}
+.payb:hover{
+    cursor: pointer;
+}
+.thankyou{
+    padding: 20px;
+    font-size: 2em;
+    background-color: #ECFDF5;
+    text-align: center;
+ 
+}
+.greet{
+    margin-top:20px ;
+}
