@@ -90,7 +90,7 @@ function getList(){
 `<div class = "top">
         <div id ="topp">
             <h1>
-                Prabhat's Dinner
+                Prabhat's Diner
             </h1>
             <p>
                 The best Burgers and Pizzas in the town
